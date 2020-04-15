@@ -1,0 +1,19 @@
+current directory: /Users/tylerschreiner/git/ty-machine/timesyncd_chef_test/vendor/bundle/ruby/2.6.0/gems/libyajl2-1.2.0/ext/libyajl2
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20200415-15750-1bcvy0r.rb extconf.rb
+creating Makefile
+/Users/tylerschreiner/git/ty-machine/timesyncd_chef_test/vendor/bundle/ruby/2.6.0/gems/libyajl2-1.2.0/ext/libyajl2
+
+current directory: /Users/tylerschreiner/git/ty-machine/timesyncd_chef_test/vendor/bundle/ruby/2.6.0/gems/libyajl2-1.2.0/ext/libyajl2
+make "DESTDIR=" clean
+make: *** No rule to make target `clean'.  Stop.
+
+current directory: /Users/tylerschreiner/git/ty-machine/timesyncd_chef_test/vendor/bundle/ruby/2.6.0/gems/libyajl2-1.2.0/ext/libyajl2
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/tylerschreiner/git/ty-machine/timesyncd_chef_test/vendor/bundle/ruby/2.6.0/gems/libyajl2-1.2.0/ext/libyajl2
+make "DESTDIR=" install
+mkdir -p /Users/tylerschreiner/git/ty-machine/timesyncd_chef_test/vendor/bundle/ruby/2.6.0/gems/libyajl2-1.2.0/lib/libyajl2/vendored-libyajl2/lib
+cp libyajl.bundle /Users/tylerschreiner/git/ty-machine/timesyncd_chef_test/vendor/bundle/ruby/2.6.0/gems/libyajl2-1.2.0/lib/libyajl2/vendored-libyajl2/lib/libyajl.bundle
+mkdir -p /Users/tylerschreiner/git/ty-machine/timesyncd_chef_test/vendor/bundle/ruby/2.6.0/gems/libyajl2-1.2.0/lib/libyajl2/vendored-libyajl2/include/yajl
+cp yajl/*.h /Users/tylerschreiner/git/ty-machine/timesyncd_chef_test/vendor/bundle/ruby/2.6.0/gems/libyajl2-1.2.0/lib/libyajl2/vendored-libyajl2/include/yajl
