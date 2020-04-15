@@ -21,9 +21,7 @@ Vagrant.configure("2") do |config|
 
 
         config.vm.provision "chef_solo" do |chef|
-          #chef.recipe_url = "https://github.com/nathwill/chef-systemd/archive/v3.2.4.tar.gz"
-          #chef.cookbooks_path = "."
-          chef.add_recipe "sysd-test"
+          chef.add_recipe "sysd-test::default"
           chef.arguments = "--chef-license accept"
         end
       end

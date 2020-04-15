@@ -1,0 +1,13 @@
+driver:
+  name: vagrant
+provisioner:
+  name: chef_zero
+platforms:
+  - name: ubuntu-bionic64
+    driver:
+      box: ubuntu/bionic64
+suites:
+  - name: default
+    run_list:
+      - recipe[sysd-test::default]
+
